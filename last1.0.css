@@ -1,0 +1,425 @@
+
+/*
+#logo {
+    display: block;
+    margin: auto;
+    width: 15%;
+}
+*/
+body {
+    font-family: "trebuchet ms" !important;
+}
+#stack {
+    display: block;
+    width: 10%;
+    float: left;
+}
+#head_fix {
+    background-color: white;
+}
+#list-group {
+    background-color: darkslategrey;
+    color: darkgray;
+    height: 100%;
+    float:left;
+    width:10%;
+    overflow:hidden;
+    
+}
+#view_header {
+    padding-bottom: 2px solid;
+    position: relative;
+    bottom: 30px;
+    z-index:10;
+}
+#view_body {
+    position: relative;
+    bottom: 40px;
+}
+#view_headline {
+    font-size: 22px;
+    font-style: bold;
+}
+#view_header_left {
+    margin-left: 0px;
+}
+#view_header_right {
+    float:right;
+}
+#view_body_left {
+    padding-top: 5px;
+    border-top: 1px solid #DCDCDC;
+}
+#view_body_bioimg {
+    max-height: 200px;
+    margin: auto;
+    display: block;   
+}
+#view_body_right {
+    position: relative;
+    margin: -10px;
+    
+    
+}
+#wrapper_first,#wrapper_second,#wrapper_third,#wrapper_forth{
+    background-color:#F5F5F5 ;
+    position: relative;
+    top: 15px;
+    padding: 10px;
+}
+
+.list-group-item {
+    background: rgb(0, 0, 0);
+}
+#legislatorform {
+    float:left;
+    width:80%;
+    overflow:hidden;
+}
+
+
+#legisform {
+    margin: 0 30 0 30;
+}
+#taball {
+    margin: 0 10 0 10;
+    border-style: solid;
+    border-width: 1;
+}
+#legtable {
+    border-style: solid;
+    border-width: 2;
+}
+#legh4 {
+    
+    
+}
+#legselect {
+    
+}
+#leglabel{
+    border-style: solid;
+    border-width: 1;
+}
+
+
+.partyImg {
+    max-height: 20px;
+    max-width: 20px;
+}
+#111 {
+    float: left;
+}
+
+.socialImg {
+    max-height: 30px;
+}
+.star {
+    color:white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: gray;
+}
+.star_yellow {
+    color:#EED700;
+}
+.star_white {
+    color:white;
+}
+.nav_text {
+    color:#D3D3D3;
+}
+.nav_click {
+    color:black !important;
+}
+.nav_unclick {
+    color:#D3D3D3;
+}
+#n_bar {
+    color:black;
+}
+
+
+
+
+
+
+
+
+
+
+/*!
+ * Start Bootstrap - Simple Sidebar (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+ body {
+    overflow-x: hidden;
+    font-family: "trebuchet ms" !important;
+ }
+#logo {
+    float: left;
+    
+}
+#img_congress {
+    
+        max-height:18px; 
+    }
+#center {
+    position: relative;
+    top: 5px;
+    margin: auto;
+    display: block;
+    width: 90%;
+    
+}
+#button_hide {
+    position: relative;
+    left: -10px;
+    top: 15px;
+}
+#p_header {
+   
+    position: relative;
+    top: 3px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#ri {
+    position: relative;
+    top:8px;
+}
+
+
+
+/* Toggle Styles */
+
+#wrapper {
+    
+    padding-left: 45px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 0px;
+}
+
+#sidebar-wrapper {
+    top: 50px;
+    z-index: 1000;
+    position: fixed;
+    left: 100px;
+    width: 45px;
+    height: 100%;
+    margin-left: -100px;
+    overflow-y: auto;
+    background: #000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 0px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 20px;
+    width: 180px;
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 10px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+.inner_header,.inner_header4 {
+    font-weight: bold;
+}
+#bill_pdf {
+    width: 100%;
+    height:500px;
+}
+@media screen and (max-width: 767px) {
+    #bill_pdf {
+        width: 100%;
+        height:500px;
+    }
+    .nav_box{    
+        max-width: 79px;
+        font-size: 12px;
+    }
+    .nav_box2 {
+        font-size:12px;
+    }
+    .inner_header {
+        font-weight: bold;
+        width: 50%;
+        float: left;
+        overflow: hidden;
+        
+    }
+    .inner_header4 {
+        
+    }
+    .hhh {
+        height: 
+    }
+    .inner_select,.inner_search{
+        width: 85px;
+    
+        margin-top: 15px;
+        display: block;
+        float：right;
+    }
+    .inner_search2 {
+        width: 80px;
+    }
+    .inner_table {
+        margin: -16px;
+    }
+    .inner_panel {
+        margin: -15px;
+    }
+    #view_header {
+        padding-bottom: 2px solid;
+        position: relative;
+        height: 45px;
+        z-index:10;
+    }
+    #view_body {
+        position: relative;
+        bottom: 10px;
+    }
+    #view_headline {
+        font-size: 22px;
+        font-style: bold;
+    }
+    #view_header_left {
+        margin-left: -10px;
+        width: 75%;
+        position: relative;
+        left: -20px
+    }
+    #view_header_right {
+        float:right;
+    }
+    #view_body_left {
+        padding-top: 5px;
+        border-top: 1px solid #DCDCDC;
+        margin:-20px -25px 10px -25px
+    }
+    #view_body_bioimg {
+        max-height: 200px;
+        margin-bottom: 5px;
+         
+    }
+    #view_table {
+        margin: 10px -10px 10px -10px;
+    }
+    .view_right_table {
+        
+        border: 1px solid #DCDCDC;
+        
+        
+        
+    }
+    #bill_view_table {
+       margin:-15px -20px 10px -30px;
+    }
+    .view_right_table td {
+        width:10px;
+    }
+    #view_body_right {
+        position: relative;
+        top: -40px;
+    }
+}
+
+@media(min-width:768px) {
+   
+    
+    #center {
+        margin: auto;
+        display: block;
+        width: 30%;
+
+    }    
+    #wrapper {
+        padding-left: 180px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 180px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}
